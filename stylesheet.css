@@ -34,6 +34,7 @@ body {
 }
 
 .profile {
+    position: relative;
     width: 100%;
     height: 240px;
     margin-bottom: 50px;
@@ -41,28 +42,34 @@ body {
 }
 
 .foto img{
-    width: 170px;
-    height: 200px;
+    width: 180px;
+    height: 210px;
 } 
 
 .foto-left {
     float: left;
+    padding-right: 20px;
+}
+
+.foto-right {
+    float: right;
+    padding-left: 20px;
 }
 
 .describe {
-    width: 60%;
     font-size: 15px;
     text-align: justify;
 }
 
 .describe-right {
-    float: right;
+    margin-left: 20px;
 }
 
-.foto-right {
-    float: right;
+.describe p {
+    display: inline;
+    line-height: 1.5;
 }
 
 .describe-left {
-    float: left;
+    margin-right: 20px;
 }
