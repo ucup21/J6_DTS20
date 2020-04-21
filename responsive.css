@@ -17,18 +17,23 @@
 
     .profile {
         width: 100%;
-        height: 330px;
+        height: 480px;
         text-align: center;
     }
-    
+
     .describe {
         width: 100%;
         padding: 10px;
         text-align: center;
     }
 
-    .foto-left, .foto-right, .describe-right, .describe-left {
+    .foto-left, .foto-right {
         float: none;  
+        padding: 0;
+    }
+
+    .describe-left, .describe-right {
+        margin: 0;
     }
 
 }
