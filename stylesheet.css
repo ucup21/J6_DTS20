@@ -60,6 +60,7 @@ body {
 .describe {
     font-size: 15px;
     text-align: justify;
+    padding-top: 20px;
 }
 
 .describe-right {
