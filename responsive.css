@@ -7,12 +7,32 @@
     .profile {
         width: 100%;
     }
+
+    footer img {
+        margin-left: 30%;
+    }
+
+    footer span {
+        margin-right: 30%;
+    }
 }
 
 @media all and (max-width: 670px) {
     .profile-wrapper {
         width: 100%;
         padding: 50px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .heading {
+        padding-top: 0;
+    }
+
+    .header-right {
+        display: none;
     }
 
     .profile {
@@ -34,6 +54,14 @@
 
     .describe-left, .describe-right {
         margin: 0;
+    }
+
+    footer img {
+        margin-left: 10%;
+    }
+
+    footer span {
+        margin-right: 15%;
     }
 
 }
